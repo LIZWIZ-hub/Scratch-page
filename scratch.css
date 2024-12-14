@@ -1,0 +1,113 @@
+/* overwrite.css */
+
+/* Define the font family and color for the entire page */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Dark grey color for the text */
+    background-color: #a7e1f1; /* Light grey background for the page */
+}
+
+/* Define a style for the header section */
+div img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+/* Style for the links in the navigation bar */
+.subheader a {
+    color: #1E90FF; /* Blue color */
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.subheader a:hover {
+    text-decoration: underline;
+    color: #FF4500; /* Change link color to orange on hover */
+}
+
+/* Style for the main content block */
+div p {
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    color: #2F4F4F; /* Dark Slate Gray */
+}
+
+/* Add color to specific headings */
+h1, h2 {
+    color: #4CAF50; /* Green for headers */
+}
+
+/* Add a background color and shadow effect to list items */
+ol li, ul li {
+    background-color: #f1f1f1; /* Light background for list items */
+    border: 1px solid #ddd; /* Light border around list items */
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Style for the footer section */
+footer {
+    background-color: #333; /* Dark footer background */
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #fff; /* White text for footer */
+}
+
+/* Define a style for positioning and styling div blocks */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Add color to links in the main content */
+a {
+    color: #1E90FF; /* Blue color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF6347; /* Tomato red color for links on hover */
+}
+
+/* Add a background color to the mission statement */
+.mission-statement {
+    background-color: #FFFACD; /* Lemon chiffon background for mission statement */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Add a background color for the "Back to Top" link */
+#top {
+    color: #008080; /* Teal color */
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #f0f8ff; /* Alice blue background for the link */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#top:hover {
+    background-color: #B0E0E6; /* Light steel blue background on hover */
+}
+
+/* Add a background color and hover effect to buttons (if any) */
+button {
+    background-color: #4396b1; /* Light blue background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005F73; /* Darker blue when hovering */
+}
